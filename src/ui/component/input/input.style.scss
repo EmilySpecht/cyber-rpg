@@ -1,10 +1,12 @@
+@import "../../constants-style/colors.style";
+
 .input {
-  background-color: #0C2D4B;
+  background-color: $MEDITERRANEAN-BLUE;
   height: 64px;
   outline: none;
   border: none;
   border-radius: 5px;
   font-size: 24px;
-  color: #74E6FF;
+  color: $CIAN;
   padding: 10px;
 }

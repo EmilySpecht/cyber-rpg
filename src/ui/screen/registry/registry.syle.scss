@@ -1,0 +1,71 @@
+@import "../../constants-style/colors.style";
+
+.registry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  &__form-spot {
+    transition: .5s;
+    width: 745px;
+    padding: 0 80px;
+    background-color: $OCEAN-BLUE;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px $CIAN;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__part-top{
+      height: 120px;
+      width: 420px;
+    }
+
+    &__part-bottom {
+      height: 100px;
+      width: 236px;
+    }
+
+    &__text-title {
+      font-size: 34px;
+      color: $CIAN;
+      display: block;
+      text-align: center;
+      margin: 40px;
+    }
+
+    &__form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__first-input {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+      &__inputs-spot {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__inputs {
+          width: 48%;
+          margin-bottom: 40px;
+        }
+      }
+
+      &__ready-button {
+        height: 64px;
+        width: 314px;
+        margin-bottom: 60px;
+        font-size: 24px;
+      }
+    }
+  }
+}

@@ -6,7 +6,10 @@ import {Screw} from "../screw/screw.component";
 export const Part = ({variant, classname}) => {
     return (
         <div className={`part--${variant} ${classname}`}>
-            <Screw />
+            <div className="part__two-buttons">
+                <Screw />
+                <Screw />
+            </div>
         </div>
     )
 }

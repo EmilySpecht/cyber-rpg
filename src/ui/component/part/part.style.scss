@@ -1,12 +1,23 @@
+@import "../../constants-style/colors.style";
+
 .part {
   &--top, &--bottom {
-    background: linear-gradient(180deg, #113353, #225D93);
-    border: 1px solid #052039;
-    box-shadow: 0 6px 2px #74E6FF;
+    background: linear-gradient(180deg, $MEDITERRANEAN-BLUE, $OCEAN-BLUE2);
+    border: 1px solid $MEDITERRANEAN-BLUE;
+    box-shadow: 0 6px 2px $CIAN;
     border-radius: 0 0 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &--bottom {
     transform: rotate(-180deg);
+  }
+
+  &__two-buttons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
   }
 }
