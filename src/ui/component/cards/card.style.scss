@@ -1,9 +1,9 @@
 @import "../../constants-style/colors.style";
 
-.default-button {
-  background: linear-gradient(180deg, $MEDITERRANEAN-BLUE, $OCEAN-BLUE2);
+.card {
   border: $DARK-BLUE;
   box-shadow: 0 4px 4px $CIAN;
   color: $CIAN;
   border-radius: 10px;
+  background-size: cover;
 }

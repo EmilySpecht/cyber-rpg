@@ -1,7 +1,7 @@
 import React from 'react'
+import {Screw} from '../screw/screw.component';
 
 import './part.style.scss'
-import {Screw} from "../screw/screw.component";
 
 export const Part = ({variant, classname}) => {
     return (

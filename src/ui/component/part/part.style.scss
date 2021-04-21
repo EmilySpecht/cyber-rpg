@@ -1,7 +1,7 @@
 @import "../../constants-style/colors.style";
 
 .part {
-  &--top, &--bottom {
+  &--top, &--bottom, &--left, &--right {
     background: linear-gradient(180deg, $MEDITERRANEAN-BLUE, $OCEAN-BLUE2);
     border: 1px solid $MEDITERRANEAN-BLUE;
     box-shadow: 0 6px 2px $CIAN;
@@ -14,6 +14,15 @@
   &--bottom {
     transform: rotate(-180deg);
   }
+
+  &--left {
+    transform: rotate(-90deg);
+  }
+
+  &--right {
+    transform: rotate(90deg);
+  }
+
 
   &__two-buttons {
     width: 120px;

@@ -1,0 +1,40 @@
+@import "../../constants-style/colors.style";
+
+.level-box {
+  width: 160px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $OCEAN-BLUE;
+  box-shadow: 0 8px 5px #74E6FF;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+
+  &__screen {
+    border-radius: 15px;
+    padding: 20px 10px;
+    background-color: $MEDITERRANEAN-BLUE;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    color: $CIAN;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 35px 15px;
+    }
+  }
+
+  &__button {
+    width: 50px;
+    height: 35px;
+    margin: 20px 0 10px 0;
+  }
+}

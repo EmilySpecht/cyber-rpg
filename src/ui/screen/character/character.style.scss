@@ -1,0 +1,103 @@
+@import "../../constants-style/colors.style";
+
+.character {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+
+  &__first-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__level-box {
+      margin-left: 50px;
+    }
+
+    &__character-panel {
+      box-shadow: 0 6px 12px $CIAN;
+      width: 932px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-radius: 20px 20px 0 0;
+
+      &__part-left-side {
+        width: 250px;
+        height: 70px;
+        position: relative;
+        left: -25px;;
+        top: 100px;
+      }
+
+      &__part-right-side {
+        width: 250px;
+        height: 70px;
+        position: relative;
+        right: -25px;
+        top: 100px;
+      }
+
+      &__registry-character {
+        padding: 50px 0 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &__cards {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+
+          &__character-card {
+            width: 91px;
+            height: 71px;
+            margin: 5px;
+          }
+        }
+
+        &__input-name {
+          width: 300px;
+          height: 40px;
+          font-size: 16px;
+          margin: 10px 20px;
+          border: .5px solid $GREEN-WATER;
+        }
+
+        &__button-registry {
+          width: 162px;
+          height: 35px;
+          font-size: 10px;
+          margin: 10px;
+        }
+      }
+    }
+
+      &__character-visualization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__light {
+          width: 500px;
+          height: 550px;
+          background: radial-gradient(50% 50% at 50% 50%, #74E6FF -40%, rgba(10, 51, 89, 0) 100%);
+
+        }
+
+        &__podium {
+          width: 700px;
+          height: 91px;
+          background: radial-gradient(50% 50% at 50% 50%, #74E6FF 0%, #377E9B 0.01%, #1D5372 42.58%, #022646 100%);
+          box-shadow: 0 6px 12px $CIAN;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
